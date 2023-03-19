@@ -94,6 +94,10 @@ body {
 }
 
 /* section1 */
+.section-effective {
+    background-color: #2e2f42;
+}
+
 .approach {
     color: #2e2f42;
 }
@@ -181,7 +185,7 @@ body {
 
 /* section3 */
 .section-team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .section-our-team {
@@ -221,6 +225,7 @@ body {
 }
 
 .footer-logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -230,6 +235,12 @@ body {
 }
 
 .footer-logo-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #f4f4fd;
 }
 
