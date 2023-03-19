@@ -36,6 +36,10 @@ body {
     text-underline-offset: none;
 }
 
+.list-style {
+    list-style: none;
+}
+
 .text-decoration {
     text-decoration: none;
 }
