@@ -1,10 +1,33 @@
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 
-:root 
+:root {
+    --main-background-color: #ffffff
+}
+
+:root{
+    --second-background-color: #f4f4fd
+}
+
+:root {
+    --third-background-color: #2e2f42
+}
+
+:root {
+--main-title-cololr: ##404bbf
+}
+
+:root {
+--second-title-cololr: #2e2f42
+}
+
+:root {
+ --third-title-cololr: #4d5ae4
+} 
+
 .list {
     list-style: none;
 }
@@ -106,7 +129,7 @@ body {
 }
 
 
-.list-btn {
+.portfolio-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -129,12 +152,12 @@ body {
     flex-grow: 0;
 }
 
-.list-btn:hover {
+.portfolio-button:hover {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
-.list-btn:focus {
+.portfolio-button:focus {
     color: #ffffff;
     background-color: #404BBF;
 }
@@ -196,6 +219,16 @@ body {
 .footer {
     background-color: #2e2f42;
 }
+
+.footer-logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
 .footer-logo-studio {
     color: #f4f4fd;
 }
