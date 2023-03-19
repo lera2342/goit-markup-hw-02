@@ -150,6 +150,7 @@ body {
     color: #2e2f42;
 }
 
+
 .portfolio-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -201,8 +202,13 @@ body {
 }
 
 /* section3 */
+
 .section-team {
-    background-color: #FFFFFF;
+    background-color: #f4f4fd;
+}
+
+.section-class-list {
+    color: #FFFFFF;
 }
 
 .section-our-team {
