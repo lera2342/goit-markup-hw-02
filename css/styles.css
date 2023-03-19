@@ -71,7 +71,9 @@ body {
 }
 
 /* section1 */
-
+.approach {
+    color: #2e2f42;
+}
 .section-effective-contents {
     font-family: 'Roboto';
     font-style: normal;
@@ -96,11 +98,35 @@ body {
 }
 
 .section-effective-btn:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .section-effective-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
+}
+
+
+.list-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background: #F4F4FD;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 116px;
+    height: 48px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .list-btn:hover {
@@ -109,26 +135,8 @@ body {
 }
 
 .list-btn:focus {
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #404BBF;
-}
-
-.list-btn {
-    font-family: inherit;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    width: 116px;
-    height: 48px;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    color: #4D5AE5;
 }
 
 /* section2 */
@@ -165,9 +173,6 @@ body {
     color: #2E2F42;
 }
 
-.section-team-item {
-    background-color: #FFFFFF;
-}
 
 .our-team-name {
     font-weight: 500;
@@ -191,6 +196,9 @@ body {
 .footer {
     background-color: #2e2f42;
 }
+.footer-logo-studio {
+    color: #f4f4fd;
+}
 
 .footer-increase {
     font-weight: 400;
@@ -203,11 +211,12 @@ body {
 
 /* portfolio */
 .list-photo {
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2e2f42;
 }
 
 .list-photo-paragraph {
