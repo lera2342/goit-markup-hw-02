@@ -98,6 +98,12 @@ body {
 }
 
 /* section1 */
+.section-team {
+    background-color: #F4F4FD;
+}
+.section-class-list {
+    background-color: #FFFFFF;
+}
 .section-effective {
     background-color: #2e2f42;
 }
