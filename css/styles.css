@@ -1,39 +1,25 @@
+:root {
+    --main-background-color: #ffffff
+    --second-background-color: #f4f4fd
+    --third-background-color: #2e2f42
+    --main-title-cololr: ##404bbf
+    --second-title-cololr: #2e2f42
+    --third-title-cololr: #4d5ae4
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: var(--main-background-color);
 }
 
-:root {
-    --main-background-color: #ffffff
-}
-
-:root{
-    --second-background-color: #f4f4fd
-}
-
-:root {
-    --third-background-color: #2e2f42
-}
-
-:root {
---main-title-cololr: ##404bbf
-}
-
-:root {
---second-title-cololr: #2e2f42
-}
-
-:root {
- --third-title-cololr: #4d5ae4
-} 
 
 .list {
     list-style: none;
 }
 
 .link {
-    text-underline-offset: none;
+    text-decoration: none;
 }
 
 .list-style {
@@ -53,12 +39,6 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
 }
 
 .header-logo-studio {
@@ -153,18 +133,6 @@ body {
     color: #4d5ae5;
     background: #F4F4FD;
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-    width: 116px;
-    height: 48px;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .portfolio-button:hover {
