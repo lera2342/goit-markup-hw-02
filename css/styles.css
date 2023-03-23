@@ -38,12 +38,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--third-title-color);
+    color: #4d5ae5;
     text-decoration: none;
 }
 
 .header-logo-studio {
-    color: var(--second-title-color);
+    color: #2e2f42;
 }
 
 .header-link {
@@ -55,11 +55,11 @@ body {
 }
 
 .header-item-menu:hover {
-    color: var(--main-title-color);
+    color: #404bbf;
 }
 
 .header-item-menu:focus {
-    color: var(--main-title-color);
+    color: #404bbf;
 }
 
 .header-studio {
@@ -86,7 +86,7 @@ body {
     background-color: var(--main-text-white);
 }
 .section-effective {
-    background-color: var(--third-background-color);
+    background-color: #2e2f42;
 }
 
 .approach {
@@ -101,7 +101,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     background: var(--third-background-color);
-    color: var(--main-text-white);
+    color: #ffffff;
 }
 
 .section-effective-btn {
@@ -111,16 +111,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: var(--third-title-color);
-    color: var(--main-text-white);
+    background-color: #4d5ae5;
+    color: #ffffff;
 }
 
 .section-effective-btn:hover {
-    background-color: var(--main-title-color);
+    background-color: #404bbf;
 }
 
 .section-effective-btn:focus {
-    background-color: var(--main-title-color);
+    background-color: #404bbf;
 }
 
 
@@ -131,19 +131,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--third-title-color);
-    background: var(--second-background-color);
+    color: #4d5ae5;
+    background-color: #f4f4fd;
     cursor: pointer;
 }
 
 .portfolio-button:hover {
-    color: var(--main-text-white);
-    background-color: var(--main-title-color);
+    color: #ffffff;
+    background-color: #404bbf;
 }
 
 .portfolio-button:focus {
-    color: var(--main-text-white);
-    background-color: var(--main-title-color);
+    color: #ffffff;
+    background-color: #404bbf;
 }
 
 /* section2 */
@@ -152,7 +152,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--second-title-color);
+    color: #2e2f42;
 }
 
 .approach-paragraph {
@@ -163,14 +163,19 @@ body {
     color: var(--main-text-color);
 }
 
-/* section3 */
+/* section4 */
 
 .section-team {
-    background-color: var(--second-background-color);
+    background-color: #f4f4fd;
 }
 
 .section-class-list {
-    background-color: var(--main-text-white);
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .section-our-team {
@@ -182,7 +187,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--second-title-color);
+    color: #2e2f42;
 }
 
 
@@ -206,7 +211,7 @@ body {
 
 /* footer */
 .footer {
-    background-color: var(--third-background-color);
+    background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -216,7 +221,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--third-title-color);
+    color: #4d5ae5;
 }
 
 .footer-logo-studio {
@@ -226,7 +231,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--second-background-color);
+    color: #f4f4fd;
 }
 
 .footer-increase {
@@ -251,7 +256,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: #434455;
 }
 
 .section-team-item {
@@ -259,5 +264,5 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--second-title-color);
+    color: #2e2f42;
 }
