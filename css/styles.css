@@ -38,12 +38,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae4;
+    color: var(--third-title-cololr);
     text-decoration: none;
 }
 
 .header-logo-studio {
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
 
 .header-link {
@@ -51,19 +51,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
 
 .header-item-menu:hover {
-    color: #404bbf;
+    color: var(--main-title-cololr);
 }
 
 .header-item-menu:focus {
-    color: #404bbf;
+    color: var(--main-title-cololr);
 }
 
 .header-studio {
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
 
 .address-header {
@@ -75,22 +75,22 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text-color);
 }
 
 /* section1 */
 .section-team {
-    background-color: #f4f4fd;
+    background-color: var(--second-background-color);
 }
 .section-class-list {
-    background-color: #ffffff;
+    background-color: var(--main-background-color);
 }
 .section-effective {
-    background-color: #2e2f42;
+    background-color: var(--third-background-color);
 }
 
 .approach {
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
 .section-effective-contents {
     font-family: 'Roboto';
@@ -100,8 +100,8 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    background: #2e2f42;
-    color: #ffffff;
+    background: var(--third-background-color);
+    color: var(--main-background-color);
 }
 
 .section-effective-btn {
@@ -111,16 +111,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: #4d5ae4;
-    color: #ffffff;
+    background: var(--third-title-cololr);
+    color: var(--main-background-color);
 }
 
 .section-effective-btn:hover {
-    background-color: #404bbf;
+    background-color: var(--main-title-cololr);
 }
 
 .section-effective-btn:focus {
-    background-color: #404bbf;
+    background-color: var(--main-title-cololr);
 }
 
 
@@ -131,19 +131,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae4;
-    background: #f4f4fd;
+    color: var(--third-title-cololr);
+    background: var(--second-background-color);
     cursor: pointer;
 }
 
 .portfolio-button:hover {
-    color: #ffffff;
-    background-color: #404bbf;
+    color: var(--main-background-color);
+    background-color: var(--main-title-cololr);
 }
 
 .portfolio-button:focus {
-    color: #ffffff;
-    background-color: #404bbf;
+    color: var(--main-background-color);
+    background-color: var(--main-title-cololr);
 }
 
 /* section2 */
@@ -152,7 +152,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
 
 .approach-paragraph {
@@ -160,17 +160,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text-color);
 }
 
 /* section3 */
 
 .section-team {
-    background-color: #f4f4fd;
+    background-color: var(--second-background-color);
 }
 
 .section-class-list {
-    background-color: #ffffff;
+    background-color: var(--main-background-color);
 }
 
 .section-our-team {
@@ -182,7 +182,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
 
 
@@ -192,7 +192,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
 
 .our-team {
@@ -201,12 +201,12 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text-color);
 }
 
 /* footer */
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--third-background-color);
 }
 
 .footer-logo {
@@ -216,7 +216,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae4;
+    color: var(--third-title-cololr);
 }
 
 .footer-logo-studio {
@@ -226,7 +226,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: var(--second-background-color);
 }
 
 .footer-increase {
@@ -234,8 +234,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-    background: #2e2f42;
+    color: var(--second-background-color);
+    background: var(--third-background-color);
 }
 
 /* portfolio */
@@ -251,7 +251,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text-color);
 }
 
 .section-team-item {
@@ -259,5 +259,5 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--third-background-color);
 }
