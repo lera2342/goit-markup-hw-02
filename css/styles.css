@@ -1,5 +1,5 @@
 :root {
-    --main-background-color: #ffffff
+    --main-text-white:  #ffffff
     --second-background-color: #f4f4fd
     --third-background-color: #2e2f42
     --main-title-color: #404bbf
@@ -10,8 +10,8 @@
 
 body {
     font-family: Roboto, sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--main-text-color);
+    background-color: var(--main-text-white);
 }
 
 
@@ -43,7 +43,7 @@ body {
 }
 
 .header-logo-studio {
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
 
 .header-link {
@@ -51,7 +51,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
 
 .header-item-menu:hover {
@@ -63,7 +63,7 @@ body {
 }
 
 .header-studio {
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
 
 .address-header {
@@ -83,14 +83,14 @@ body {
     background-color: var(--second-background-color);
 }
 .section-class-list {
-    background-color: var(--main-background-color);
+    background-color: var(--main-text-white);
 }
 .section-effective {
     background-color: var(--third-background-color);
 }
 
 .approach {
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
 .section-effective-contents {
     font-family: 'Roboto';
@@ -101,7 +101,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     background: var(--third-background-color);
-    color: var(--main-background-color);
+    color: var(--main-text-white);
 }
 
 .section-effective-btn {
@@ -112,7 +112,7 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     background: var(--third-title-color);
-    color: var(--main-background-color);
+    color: var(--main-text-white);
 }
 
 .section-effective-btn:hover {
@@ -137,12 +137,12 @@ body {
 }
 
 .portfolio-button:hover {
-    color: var(--main-background-color);
+    color: var(--main-text-white);
     background-color: var(--main-title-color);
 }
 
 .portfolio-button:focus {
-    color: var(--main-background-color);
+    color: var(--main-text-white);
     background-color: var(--main-title-color);
 }
 
@@ -152,7 +152,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
 
 .approach-paragraph {
@@ -170,7 +170,7 @@ body {
 }
 
 .section-class-list {
-    background-color: var(--main-background-color);
+    background-color: var(--main-text-white);
 }
 
 .section-our-team {
@@ -182,7 +182,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
 
 
@@ -192,7 +192,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
 
 .our-team {
@@ -208,6 +208,7 @@ body {
 .footer {
     background-color: var(--third-background-color);
 }
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -258,5 +259,5 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--third-background-color);
+    color: var(--second-title-color);
 }
