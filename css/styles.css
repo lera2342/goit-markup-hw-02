@@ -1,17 +1,16 @@
 :root {
-    --main-text-white:  #ffffff
+    --main-background-color: #ffffff
     --second-background-color: #f4f4fd
     --third-background-color: #2e2f42
-    --main-title-color: #404bbf
-    --second-title-color: #2e2f42
-    --third-title-color: #4d5ae5
-    --main-text-color: #434455
+    --main-title-cololr: ##404bbf
+    --second-title-cololr: #2e2f42
+    --third-title-cololr: #4d5ae5
 }
 
 body {
     font-family: Roboto, sans-serif;
-    color: var(--main-text-color);
-    background-color: var(--main-text-white);
+    color: var();
+    background-color: var(--main-background-color, white);
 }
 
 
@@ -51,7 +50,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-title-color);
+    color: #2E2F42;
 }
 
 .header-item-menu:hover {
@@ -63,7 +62,7 @@ body {
 }
 
 .header-studio {
-    color: var(--second-title-color);
+    color: #2e2f42;
 }
 
 .address-header {
@@ -75,22 +74,22 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: #434455;
 }
 
 /* section1 */
 .section-team {
-    background-color: var(--second-background-color);
+    background-color: #F4F4FD;
 }
 .section-class-list {
-    background-color: var(--main-text-white);
+    background-color: #FFFFFF;
 }
 .section-effective {
     background-color: #2e2f42;
 }
 
 .approach {
-    color: var(--second-title-color);
+    color: #2e2f42;
 }
 .section-effective-contents {
     font-family: 'Roboto';
@@ -100,8 +99,8 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    background: var(--third-background-color);
-    color: #ffffff;
+    background: #2e2f42;
+    color: #FFFFFF;
 }
 
 .section-effective-btn {
@@ -111,16 +110,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: #4d5ae5;
-    color: #ffffff;
+    background: #4D5AE5;
+    color: #FFFFFF;
 }
 
 .section-effective-btn:hover {
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
 
 .section-effective-btn:focus {
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
 
 
@@ -132,18 +131,18 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4d5ae5;
-    background-color: #f4f4fd;
+    background: #F4F4FD;
     cursor: pointer;
 }
 
 .portfolio-button:hover {
-    color: #ffffff;
-    background-color: #404bbf;
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .portfolio-button:focus {
     color: #ffffff;
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
 
 /* section2 */
@@ -152,7 +151,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 .approach-paragraph {
@@ -160,22 +159,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: #434455;
 }
 
-/* section4 */
+/* section3 */
 
 .section-team {
     background-color: #f4f4fd;
 }
 
 .section-class-list {
-    background-color: #ffffff;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    background-color: #FFFFFF;
 }
 
 .section-our-team {
@@ -187,7 +181,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 
@@ -197,7 +191,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--second-title-color);
+    color: #2E2F42;
 }
 
 .our-team {
@@ -206,7 +200,7 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: #434455;
 }
 
 /* footer */
@@ -239,8 +233,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-background-color);
-    background: var(--third-background-color);
+    color: #F4F4FD;
+    background: #2E2F42;
 }
 
 /* portfolio */
