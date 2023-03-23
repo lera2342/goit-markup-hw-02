@@ -2,9 +2,9 @@
     --main-background-color: #ffffff
     --second-background-color: #f4f4fd
     --third-background-color: #2e2f42
-    --main-title-color: #404bbf
-    --second-title-color: #2e2f42
-    --third-title-color: #4d5ae5
+    --main-title-cololr: #404bbf
+    --second-title-cololr: #2e2f42
+    --third-title-cololr: #4d5ae5
     --main-text-color: #434455
 }
 
@@ -38,12 +38,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--third-title-cololr);
+    color: var(--third-title-color);
     text-decoration: none;
 }
 
 .header-logo-studio {
-    color: var(--third-title-color);
+    color: var(--third-background-color);
 }
 
 .header-link {
@@ -131,7 +131,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--third-title-cololr);
+    color: var(--third-title-color);
     background: var(--second-background-color);
     cursor: pointer;
 }
@@ -173,14 +173,6 @@ body {
     background-color: var(--main-background-color);
 }
 
-.list-photo {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--third-background-color);
-}
-
 .section-our-team {
     font-family: 'Roboto';
     font-style: normal;
@@ -216,7 +208,6 @@ color: var(--third-background-color);
 .footer {
     background-color: var(--third-background-color);
 }
-
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
