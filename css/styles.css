@@ -10,8 +10,8 @@
 
 .body {
     font-family: Roboto, sans-serif;
-    color: var(--main-title);
-    background-color: var(--main-background-color);
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 
@@ -79,7 +79,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-title);
+    color: #434455;
 }
 
 /* section1 */
@@ -164,7 +164,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-title);
+    color: #434455;
 }
 
 /* section3 */
@@ -177,7 +177,7 @@
     background-color: #FFFFFF;
 }
 
-.list-photo {
+.section-photo {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
