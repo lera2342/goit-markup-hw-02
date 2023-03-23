@@ -2,14 +2,15 @@
     --main-background-color: #ffffff
     --second-background-color: #f4f4fd
     --third-background-color: #2e2f42
-    --main-title-cololr: ##404bbf
-    --second-title-cololr: #2e2f42
-    --third-title-cololr: #4d5ae5
+    --main-title-color: ##404bbf
+    --second-title-color: #2e2f42
+    --third-title-color: #4d5ae5
+    --main-title: #434455
 }
 
 body {
     font-family: Roboto, sans-serif;
-    color: var();
+    color: var(--main-title);
     background-color: var(--main-background-color, white);
 }
 
@@ -53,6 +54,10 @@ body {
     color: #2E2F42;
 }
 
+.header-item-menu {
+    color: #2E2F42;
+}
+
 .header-item-menu:hover {
     color: #404bbf;
 }
@@ -74,7 +79,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-title);
 }
 
 /* section1 */
@@ -159,7 +164,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-title);
 }
 
 /* section3 */
