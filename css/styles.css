@@ -2,9 +2,9 @@
     --main-background-color: #ffffff
     --second-background-color: #f4f4fd
     --third-background-color: #2e2f42
-    --main-title-cololr: #404bbf
-    --second-title-cololr: #2e2f42
-    --third-title-cololr: #4d5ae4
+    --main-title-color: #404bbf
+    --second-title-color: #2e2f42
+    --third-title-color: #4d5ae5
     --main-text-color: #434455
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .header-logo-studio {
-    color: var(--third-background-color);
+    color: var(--third-title-color);
 }
 
 .header-link {
@@ -55,11 +55,11 @@ body {
 }
 
 .header-item-menu:hover {
-    color: var(--main-title-cololr);
+    color: var(--main-title-color);
 }
 
 .header-item-menu:focus {
-    color: var(--main-title-cololr);
+    color: var(--main-title-color);
 }
 
 .header-studio {
@@ -111,16 +111,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: var(--third-title-cololr);
+    background: var(--third-title-color);
     color: var(--main-background-color);
 }
 
 .section-effective-btn:hover {
-    background-color: var(--main-title-cololr);
+    background-color: var(--main-title-color);
 }
 
 .section-effective-btn:focus {
-    background-color: var(--main-title-cololr);
+    background-color: var(--main-title-color);
 }
 
 
@@ -138,12 +138,12 @@ body {
 
 .portfolio-button:hover {
     color: var(--main-background-color);
-    background-color: var(--main-title-cololr);
+    background-color: var(--main-title-color);
 }
 
 .portfolio-button:focus {
     color: var(--main-background-color);
-    background-color: var(--main-title-cololr);
+    background-color: var(--main-title-color);
 }
 
 /* section2 */
@@ -171,6 +171,14 @@ body {
 
 .section-class-list {
     background-color: var(--main-background-color);
+}
+
+.list-photo {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--third-background-color);
 }
 
 .section-our-team {
@@ -216,7 +224,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--third-title-cololr);
+    color: var(--third-title-color);
 }
 
 .footer-logo-studio {
