@@ -8,10 +8,10 @@
     --main-title: #434455
 }
 
-body {
+.body {
     font-family: Roboto, sans-serif;
     color: var(--main-title);
-    background-color: var(--main-background-color, white);
+    background-color: var(--main-background-color);
 }
 
 
@@ -175,6 +175,14 @@ body {
 
 .section-class-list {
     background-color: #FFFFFF;
+}
+
+.list-photo {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .section-our-team {
