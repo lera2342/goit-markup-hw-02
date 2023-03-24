@@ -9,12 +9,11 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--main-color, #434455);
-    background-color: var(--main-background-color, #FFFFFF);
+    background-color: var(--main-background-color, white)
+
 }
-
-
 .list {
     list-style: none;
 }
@@ -38,12 +37,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--third-title-color, #4d5ae5);
+    color: var(--third-title-color);
     text-decoration: none;
 }
 
 .header-logo-studio {
-    color: var(--second-title-color, #2e2f42);
+    color: var(--second-title-color);
 }
 
 .header-link {
@@ -51,19 +50,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-title-color, #2e2f42);
+    color: var(--second-title-color);
 }
 
 .header-item-menu:hover {
-    color: var(--main-title-color, #404bbf);
+    color: var(--main-title-color);
 }
 
 .header-item-menu:focus {
-    color: var(--main-title-color, #404bbf);
+    color: var(--main-title-color);
 }
 
 .header-studio {
-    color: var(--second-title-color, #2e2f42);
+    color: var(--second-title-color);
 }
 
 .address-header {
@@ -75,24 +74,24 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-color, #434455);
+    color: var(--main-color);
 }
 
 /* section1 */
 .section-team {
-    background-color: var(--second-background-color, #F4F4FD);
+    background-color: var(--second-background-color);
 }
 
 .section-class-list {
-    background-color: var(--main-background-color, #FFFFFF);
+    background-color: var(--main-background-color);
 }
 
 .section-effective {
-    background-color: var(--third-background-color, #2e2f42);
+    background-color: var(--third-background-color);
 }
 
 .approach {
-    color: var(--second-title-color, #2e2f42);
+    color: var(--second-title-color);
 }
 
 .section-effective-contents {
@@ -103,8 +102,8 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    background: var(--third-background-color, #2e2f42);
-    color: var(--main-background-color, #FFFFFF);
+    background: var(--third-background-color);
+    color: var(--main-background-color);
 }
 
 .section-effective-btn {
@@ -114,16 +113,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background: var(--third-title-color, #4d5ae5);
-    color: var(--main-background-color, #FFFFFF);
+    background: var(--third-title-color);
+    color: var(--main-background-color);
 }
 
 .section-effective-btn:hover {
-    background-color: var(--main-title-color, #404bbf);
+    background-color: var(--main-title-color);
 }
 
 .section-effective-btn:focus {
-    background-color: var(--main-title-color, #404bbf);
+    background-color: var(--main-title-color);
 }
 
 
@@ -134,19 +133,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--third-title-color, #4d5ae5);
-    background: var(--second-background-color, #F4F4FD);
+    color: var(--third-title-color);
+    background: var(--second-background-color);
     cursor: pointer;
 }
 
 .portfolio-button:hover {
-    color: var(--main-background-color, #FFFFFF);
-    background-color: var(--main-title-color, #404bbf);
+    color: var(--main-background-color);
+    background-color: var(--main-title-color);
 }
 
 .portfolio-button:focus {
-    color: #ffffff;
-    background-color: var(--main-title-color, #404bbf);
+    color: var(--main-background-color);
+    background-color: var(--main-title-color);
 }
 
 /* section2 */
@@ -155,7 +154,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--second-title-color, #2e2f42);
+    color: var(--second-title-color);
 }
 
 .approach-paragraph {
@@ -163,17 +162,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-color, #434455);
+    color: var(--main-color);
 }
 
 /* section3 */
 
 .section-team {
-    background-color: var(--second-background-color, #F4F4FD);
+    background-color: var(--second-background-color);
 }
 
 .section-class-list {
-    background-color: var(--main-background-color, #FFFFFF);
+    background-color: var(--main-background-color);
 }
 
 .section-our-team {
@@ -185,7 +184,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--second-title-color, #2e2f42);
+    color: var(--second-title-color);
 }
 
 
@@ -195,7 +194,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--second-title-color, #2e2f42);
+    color: var(--second-title-color);
 }
 
 .our-team {
@@ -204,12 +203,12 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--main-color, #434455);
+    color: var(--main-color);
 }
 
 /* footer */
 .footer {
-    background-color: var(--third-background-color, #2e2f42);
+    background-color: var(--third-background-color);
 }
 
 .footer-logo {
@@ -219,7 +218,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--third-title-color, #4d5ae5);
+    color: var(--third-title-color);
 }
 
 .footer-logo-studio {
@@ -229,7 +228,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--second-background-color, #F4F4FD);
+    color: var(--second-background-color);
 }
 
 .footer-increase {
@@ -237,8 +236,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--second-background-color, #F4F4FD);
-    background: var(--third-background-color, #2e2f42);
+    color: var(--second-background-color);
+    background: var(--third-background-color);
 }
 
 /* portfolio */
