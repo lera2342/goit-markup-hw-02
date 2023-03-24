@@ -8,7 +8,7 @@
     --main-title: #434455
 }
 
-.body {
+body {
     font-family: Roboto, sans-serif;
     color: var(--main-title #434455);
     background-color: var(--main-background-color #FFFFFF);
